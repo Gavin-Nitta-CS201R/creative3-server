@@ -1,0 +1,31 @@
+{
+  "name": "creative3-server",
+  "version": "1.0.0",
+  "description": "A server for Creative Assignment 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --debug=5859 index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gavin-Nitta-CS201R/creative3-server.git"
+  },
+  "author": "Gavin Nitta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gavin-Nitta-CS201R/creative3-server/issues"
+  },
+  "homepage": "https://github.com/Gavin-Nitta-CS201R/creative3-server#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "node-uuid": "^1.4.7",
+    "pg": "^6.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "nodemon": "^1.11.0"
+  }
+}
