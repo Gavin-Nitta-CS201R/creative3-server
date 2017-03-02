@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 app.get('/image', (req, res) => {
   db.query(`SELECT * FROM images`)
     .then(resp => {
-      res.send(resp.rows);
+      res.send(resp.rows || []);
     }).catch(err => {
       res.send(err);
     });
